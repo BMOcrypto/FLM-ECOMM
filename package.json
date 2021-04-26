@@ -43,6 +43,7 @@
     "@vue/test-utils": "^1.0.0-beta.27",
     "babel-jest": "^24.1.0",
     "babel-loader": "^8.2.2",
+    "chromatic": "^5.6.2",
     "execa": "^5.0.0",
     "jest": "^24.1.0",
     "postcss": "^8.2.13",
