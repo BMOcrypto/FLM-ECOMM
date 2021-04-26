@@ -15,7 +15,8 @@
     "generate-template": "ts-node generate-template.ts",
     "test": "jest",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "chromatic": "npx chromatic --project-token eb1797692771"
   },
   "dependencies": {
     "@nuxtjs/pwa": "^3.2.2",
