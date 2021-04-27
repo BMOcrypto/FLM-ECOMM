@@ -45,7 +45,7 @@ export default {
   },
   data() {
     return {
-      shopLogo: "/assets/logo.svg",
+      shopLogo: "/assets/logo.png",
       shopName: "Storefront UI",
       shopRootCategories: ["women", "man", "kids"],
       footerColumns: [
