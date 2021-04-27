@@ -37,6 +37,7 @@
     "@nuxt/types": "^0.7.9",
     "@nuxtjs/storybook": "^4.0.2",
     "@storybook/addon-actions": "^6.2.9",
+    "@storybook/addon-docs": "^6.3.0-alpha.15",
     "@storybook/addon-essentials": "^6.2.9",
     "@storybook/addon-links": "^6.2.9",
     "@storybook/vue": "^6.2.9",
