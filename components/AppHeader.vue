@@ -12,8 +12,10 @@
         </nuxt-link>
       </template>
       <template #navigation>
-        <SfHeaderNavigationItem class="nav-item" data-cy="app-header-url_women" label="WOMEN" :link="localePath('/c/women')"/>
-        <SfHeaderNavigationItem class="nav-item"  data-cy="app-header-url_men" label="MEN" :link="localePath('/c/men')" />
+        <SfHeaderNavigationItem class="nav-item" data-cy="app-header-url_flavorconcentrate" label="Flavor & Concentrate" :link="localePath('/c/flavorconcentrate')"/>
+        <SfHeaderNavigationItem class="nav-item"  data-cy="app-header-url_colorcloud" label="Color & Cloud" :link="localePath('/c/colorcloud')" />
+        <SfHeaderNavigationItem class="nav-item" data-cy="app-header-url_herbaldryblend" label="Herbal & Dry Blends" :link="localePath('/c/herbaldryblend')"/>
+        <SfHeaderNavigationItem class="nav-item"  data-cy="app-header-url_energyblend" label="Energy Blends" :link="localePath('/c/energyblend')" />
       </template>
       <template #aside>
         <LocaleSelector class="smartphone-only" />
@@ -55,7 +57,7 @@
       <template #search>
         <SfSearchBar
           ref="searchBarRef"
-          :placeholder="$t('Search for items')"
+          :placeholder="$t('Search Products...')"
           aria-label="Search"
           class="sf-header__search"
           :value="term"
@@ -72,7 +74,7 @@
               @click="closeOrFocusSearchBar"
             >
               <span class="sf-search-bar__icon">
-                <SfIcon color="var(--c-text)" size="18px" icon="cross" />
+                <SfIcon color="var(--c-text)" size="12px" icon="cross" />
               </span>
             </SfButton>
             <SfButton
@@ -81,7 +83,7 @@
               @click="isSearchOpen ? isSearchOpen = false : isSearchOpen = true"
             >
               <span class="sf-search-bar__icon">
-                <SfIcon color="var(--c-text)" size="20px" icon="search" />
+                <SfIcon color="var(--c-text)" size="16px" icon="search" />
               </span>
             </SfButton>
           </template>
