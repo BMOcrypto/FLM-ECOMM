@@ -2,7 +2,7 @@ import webpack from 'webpack';
 
 export default {
   server: {
-    port: 3001,
+    port: 3000,
     host: '0.0.0.0'
   },
   head: {

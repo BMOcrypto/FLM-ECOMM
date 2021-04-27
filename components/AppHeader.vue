@@ -8,7 +8,7 @@
       <!-- TODO: add mobile view buttons after SFUI team PR -->
       <template #logo>
         <nuxt-link data-cy="app-header-url_logo" :to="localePath('/')" class="sf-header__logo">
-          <SfImage src="/icons/logo.svg" alt="Vue Storefront Next" class="sf-header__logo-image"/>
+          <SfImage src="/icons/logo.svg" alt="Flavorman" class="sf-header__logo-image"/>
         </nuxt-link>
       </template>
       <template #navigation>
